@@ -1,0 +1,3011 @@
+[{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A1HO-01A-11R-A13Q-07", 
+      "entity_type": "aliquot", 
+      "case_id": "b3354b72-2637-4edc-9a95-e55801d3ac13", 
+      "entity_id": "1d8ecbae-6996-4d9d-bff8-ac761a8309ea"
+    }
+  ], 
+  "file_name": "9f0897a4-db0c-43f8-9d75-8debe9b6c847.FPKM.txt.gz", 
+  "annotations": [
+    {
+      "entity_submitter_id": "TCGA-C8-A1HO", 
+      "notes": "The patient had neoadjuvant therapy (5-Fluorouracil, Epirubicin, and Cyclophosphamide) 2 months prior to TCGA cancer procurement.", 
+      "submitter_id": "28761", 
+      "entity_id": "b3354b72-2637-4edc-9a95-e55801d3ac13", 
+      "classification": "Notification", 
+      "created_datetime": "2015-07-29T00:00:00", 
+      "annotation_id": "dade8e7a-7871-5d8f-9615-497d5e4cd1b8", 
+      "entity_type": "case", 
+      "updated_datetime": "2018-08-23T16:36:27.780612-05:00", 
+      "case_id": "b3354b72-2637-4edc-9a95-e55801d3ac13", 
+      "state": "released", 
+      "category": "Neoadjuvant therapy", 
+      "status": "Approved"
+    }
+  ], 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "9f0897a4-db0c-43f8-9d75-8debe9b6c847_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "571cf6ad-3d29-4be0-84c7-c819aabcfcde_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "571cf6ad-3d29-4be0-84c7-c819aabcfcde", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-28T23:43:23.532717-05:00", 
+        "file_size": 8882504661, 
+        "updated_datetime": "2018-11-15T21:47:23.001784-06:00", 
+        "md5sum": "279eae8a2577fcb5205ade7f9374e017", 
+        "file_id": "c225251f-be6e-45ba-bb3f-bffb520eb138", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "9f0897a4-db0c-43f8-9d75-8debe9b6c847_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "e07c9028-2e67-4268-b4f7-94740b6a378c", 
+    "created_datetime": "2016-05-29T10:58:42.096871-05:00"
+  }, 
+  "file_size": 519930, 
+  "md5sum": "8e81d1c74eedec65bc83189b4cd97dae", 
+  "file_id": "1cc148e5-4de0-4726-a7bf-fdc1d12061d3", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A12P-01A-11R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "abdc76db-f85e-4337-a57e-6d098789da03", 
+      "entity_id": "9e30b9ee-391d-40d9-8eba-de47656f3629"
+    }
+  ], 
+  "file_name": "6515c0f7-2334-4bad-bde7-b562f5f67148.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "6515c0f7-2334-4bad-bde7-b562f5f67148_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "81309f84-9f48-4626-97dc-5c5370de0cdc_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "81309f84-9f48-4626-97dc-5c5370de0cdc", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-30T12:07:31.539476-05:00", 
+        "file_size": 6771856349, 
+        "updated_datetime": "2018-11-15T20:20:28.822215-06:00", 
+        "md5sum": "a04cf81d2f29dd074d65c71bcb11b261", 
+        "file_id": "2f9e4e10-13be-400e-b66c-cf69c47a48af", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "6515c0f7-2334-4bad-bde7-b562f5f67148_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "0ebd3db4-b177-434b-94c0-15926e55caff", 
+    "created_datetime": "2016-05-30T18:40:37.774753-05:00"
+  }, 
+  "file_size": 505056, 
+  "md5sum": "b78743cd9a92f09adab30876382bf22a", 
+  "file_id": "990f24a9-c842-427c-8285-e8d52f91cf94", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A26W-01A-11R-A16F-07", 
+      "entity_type": "aliquot", 
+      "case_id": "ff0f875f-113a-4c0f-8c0a-4259cd496e6d", 
+      "entity_id": "bd304a35-2d0c-4b11-bd62-3db480c1e730"
+    }
+  ], 
+  "file_name": "45c4eed7-f80d-4d33-abbb-321ff5ed0750.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "45c4eed7-f80d-4d33-abbb-321ff5ed0750_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "d66cf170-8eb1-446a-96df-b6481adac2fb_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "d66cf170-8eb1-446a-96df-b6481adac2fb", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-30T20:56:25.792912-05:00", 
+        "file_size": 12391181653, 
+        "updated_datetime": "2018-11-15T21:21:29.863147-06:00", 
+        "md5sum": "38572e3d7bbd86a07734cce6deeef75e", 
+        "file_id": "856d7d2d-8832-4e02-9664-add7eb54cab3", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "45c4eed7-f80d-4d33-abbb-321ff5ed0750_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "f16202b4-ada6-49a4-b274-0a52874c7786", 
+    "created_datetime": "2016-05-30T21:09:55.446272-05:00"
+  }, 
+  "file_size": 535825, 
+  "md5sum": "35ca3ce8e9d8529ec6f31eb7f8bff346", 
+  "file_id": "38e828fd-8e79-4b0b-937c-9442a65ebca9", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-PE-A5DD-01A-12R-A27Q-07", 
+      "entity_type": "aliquot", 
+      "case_id": "b0700958-5f90-4546-b35f-635cd506889b", 
+      "entity_id": "38adc5a4-bf82-4a06-a179-e84dd42593da"
+    }
+  ], 
+  "file_name": "c758cf60-68bc-4154-9d43-44339da29889.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "c758cf60-68bc-4154-9d43-44339da29889_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "af576b27-03cf-4724-ba15-e8d078b1a39a_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "af576b27-03cf-4724-ba15-e8d078b1a39a", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-28T19:22:56.433527-05:00", 
+        "file_size": 6734753854, 
+        "updated_datetime": "2018-11-15T21:56:00.379896-06:00", 
+        "md5sum": "74a686d50c2f4825577ef2496cedc6b0", 
+        "file_id": "d6e0a01b-d26b-4ed6-9e20-f7e5e358687f", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "c758cf60-68bc-4154-9d43-44339da29889_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "6ff6aeb1-813e-4ef5-a32b-578082ffc00f", 
+    "created_datetime": "2016-05-29T10:57:12.099410-05:00"
+  }, 
+  "file_size": 522942, 
+  "md5sum": "afaf5f961639f2ded3ee3d438605d841", 
+  "file_id": "05037c1f-6de0-4d25-9a1c-9f0cd5a200fe", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A8HQ-01A-11R-A36F-07", 
+      "entity_type": "aliquot", 
+      "case_id": "6951fe6a-d7d1-4f41-85af-76655b5d1f62", 
+      "entity_id": "7f8c9d62-0803-44d6-9375-b4e71612a0b1"
+    }
+  ], 
+  "file_name": "ff1a6ac0-ed5a-4736-8e76-083d33edb720.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "ff1a6ac0-ed5a-4736-8e76-083d33edb720_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "47694ac4-f46f-4a91-8eda-7b13b3b6889c_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "47694ac4-f46f-4a91-8eda-7b13b3b6889c", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-29T09:53:22.217807-05:00", 
+        "file_size": 8736214908, 
+        "updated_datetime": "2018-11-15T21:30:06.924734-06:00", 
+        "md5sum": "6fe56a33ad8e5f03aff0a0c03a983a7f", 
+        "file_id": "a529fadb-9726-4bc1-8bb5-3066736a17ed", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "ff1a6ac0-ed5a-4736-8e76-083d33edb720_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "be9703a4-aa9f-482d-b377-4007314e1250", 
+    "created_datetime": "2016-05-29T10:42:04.200625-05:00"
+  }, 
+  "file_size": 540803, 
+  "md5sum": "b5c0269f4b100b391c277b080b762063", 
+  "file_id": "5d86d6c7-d15d-41db-b546-e9c26b63b8d5", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-AR-A1AS-01A-11R-A12P-07", 
+      "entity_type": "aliquot", 
+      "case_id": "7d681cc6-689d-41c8-9e84-e13733089ec9", 
+      "entity_id": "e7b64cc3-9b2b-4938-9896-84b640d1586f"
+    }
+  ], 
+  "file_name": "00a47e69-ef6a-4be9-827d-d48609859a7e.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "00a47e69-ef6a-4be9-827d-d48609859a7e_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "ca940e9d-3675-4c26-9d77-7468be47e0db_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "ca940e9d-3675-4c26-9d77-7468be47e0db", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-30T07:05:36.966587-05:00", 
+        "file_size": 6662445902, 
+        "updated_datetime": "2018-11-15T21:56:00.379896-06:00", 
+        "md5sum": "38d8b3254b5d53ff1c3e9b998306d7ea", 
+        "file_id": "daf766b1-d769-43df-9006-da237fca854f", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "00a47e69-ef6a-4be9-827d-d48609859a7e_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "a60b2e75-f251-4fa1-9164-2ad7184ce445", 
+    "created_datetime": "2016-05-30T18:25:16.031370-05:00"
+  }, 
+  "file_size": 492235, 
+  "md5sum": "66bee57def28c3dcc0f75571ebb78100", 
+  "file_id": "ebe3ce2c-8e44-4c2a-9d92-9ef613a49b0e", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A12M-01A-11R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "dd0f8e5a-383d-4f03-bb71-0e115d4e442c", 
+      "entity_id": "8f007e7a-6260-4ecc-baff-f68665b760cb"
+    }
+  ], 
+  "file_name": "0733fd68-9cd5-440a-a849-fb14ef76c00d.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "0733fd68-9cd5-440a-a849-fb14ef76c00d_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "fb3f1a94-56f6-447f-87a7-97b68923897a_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "fb3f1a94-56f6-447f-87a7-97b68923897a", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-28T22:57:21.412600-05:00", 
+        "file_size": 5768447298, 
+        "updated_datetime": "2018-11-15T22:13:19.171383-06:00", 
+        "md5sum": "8421273078e5a749abeb1e2ac219463c", 
+        "file_id": "fc69721f-e5e1-4140-bec8-d5844ff21427", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "0733fd68-9cd5-440a-a849-fb14ef76c00d_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "03640a69-2c51-4d90-b9da-12ff90837148", 
+    "created_datetime": "2016-05-29T11:08:34.378172-05:00"
+  }, 
+  "file_size": 494777, 
+  "md5sum": "db463f96dde0b31c2c0429fbb2fba66d", 
+  "file_id": "508b60c5-32c4-41f5-b8c2-c53231272d86", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A12T-01A-11R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "71229981-97c2-4ae1-a130-fe5de336b37d", 
+      "entity_id": "c13962b2-674a-4edc-a7c8-c077ab86d198"
+    }
+  ], 
+  "file_name": "e1353694-9f60-442a-a164-5b2aca82419a.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "e1353694-9f60-442a-a164-5b2aca82419a_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "d5d71c46-f3c6-4727-ba86-e82ee442e176_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "d5d71c46-f3c6-4727-ba86-e82ee442e176", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-29T18:37:23.848682-05:00", 
+        "file_size": 6591468188, 
+        "updated_datetime": "2018-11-15T22:04:38.004773-06:00", 
+        "md5sum": "c53125b976b28cd1d2c4383cead3e693", 
+        "file_id": "ec73351e-c13d-4364-adc8-40b2240168b5", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "e1353694-9f60-442a-a164-5b2aca82419a_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "006f66f1-84d1-4d32-b59c-75d90d500cfa", 
+    "created_datetime": "2016-05-30T18:19:01.901876-05:00"
+  }, 
+  "file_size": 500716, 
+  "md5sum": "97d120f608ad04ee6bf6a106141e1d88", 
+  "file_id": "d3a17c36-d702-4045-bd9d-c30a751be754", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A12U-01A-11R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "97b5f490-1cd9-4833-b903-5f4c6e45670d", 
+      "entity_id": "803bb42f-e0f2-44b6-aebb-8f956646ecc7"
+    }
+  ], 
+  "file_name": "0abe1897-c3a9-47e5-8a59-e5a2232b23db.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "0abe1897-c3a9-47e5-8a59-e5a2232b23db_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "9beae6cb-10c3-4cef-8e01-f1ba96ef701f_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "9beae6cb-10c3-4cef-8e01-f1ba96ef701f", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-29T13:35:57.866953-05:00", 
+        "file_size": 7049674547, 
+        "updated_datetime": "2018-11-15T20:46:44.319330-06:00", 
+        "md5sum": "8808f48c550484b671e42d4411c167b5", 
+        "file_id": "46069930-9478-49a7-aabe-430e568fa996", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "0abe1897-c3a9-47e5-8a59-e5a2232b23db_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "295e4622-17c9-45b7-8580-2ed358469e82", 
+    "created_datetime": "2016-05-30T18:30:09.156807-05:00"
+  }, 
+  "file_size": 505714, 
+  "md5sum": "ebacdaf5c5d8077d0d917e11f510fb07", 
+  "file_id": "413c9658-2f85-42ad-abfb-07c840a00950", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-JL-A3YW-01A-12R-A239-07", 
+      "entity_type": "aliquot", 
+      "case_id": "a2434f47-2168-47d0-9bbb-981071597843", 
+      "entity_id": "a550da17-2d06-49ac-96dc-a2204298ddfb"
+    }
+  ], 
+  "file_name": "55ef3047-ebc1-4b33-be74-b94dcf38988f.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "55ef3047-ebc1-4b33-be74-b94dcf38988f_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "79883fe6-1aa5-4436-85cd-320416edfd82_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "79883fe6-1aa5-4436-85cd-320416edfd82", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-30T01:29:43.153901-05:00", 
+        "file_size": 8942303318, 
+        "updated_datetime": "2018-11-15T22:13:19.171383-06:00", 
+        "md5sum": "5adaf8924a691b2bb9bdb131f2203292", 
+        "file_id": "fc23c1a4-ec54-4681-bd46-1dc715b0340b", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "55ef3047-ebc1-4b33-be74-b94dcf38988f_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "5a348437-eed0-43ca-ac56-91168cedd9dc", 
+    "created_datetime": "2016-05-30T18:35:29.787517-05:00"
+  }, 
+  "file_size": 524972, 
+  "md5sum": "c62e53885c049f9353f48483355d86a7", 
+  "file_id": "ab0d5f9f-543f-4863-9d38-15417e05d655", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A138-01A-11R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "b6c286c6-2755-419b-87d3-59c7feda9653", 
+      "entity_id": "f543c792-d997-420a-8bf1-c45456b62a8b"
+    }
+  ], 
+  "file_name": "0211f2ea-a4f6-4a57-8f98-66bf0a327479.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "0211f2ea-a4f6-4a57-8f98-66bf0a327479_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "d632ee36-25e1-451a-9de6-a420c15d9056_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "d632ee36-25e1-451a-9de6-a420c15d9056", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-29T03:12:44.401714-05:00", 
+        "file_size": 7351186317, 
+        "updated_datetime": "2018-11-15T21:12:37.513272-06:00", 
+        "md5sum": "e87be1816b725bd1db190bbbc401e195", 
+        "file_id": "6dca80b6-003c-421e-ba4a-a382807218cf", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "0211f2ea-a4f6-4a57-8f98-66bf0a327479_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "0d702cc3-17a8-434d-916f-3ba2d9b2cf45", 
+    "created_datetime": "2016-05-29T11:00:30.748862-05:00"
+  }, 
+  "file_size": 519940, 
+  "md5sum": "4cd380da8a827f96d2ad958eac79838d", 
+  "file_id": "092ae34e-a707-414b-9f96-dd9170790450", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-EW-A1IY-01A-11R-A13Q-07", 
+      "entity_type": "aliquot", 
+      "case_id": "5ff12cbe-a3e0-4ce6-8452-12b984a1baaf", 
+      "entity_id": "9b605e4f-fb75-4b02-a827-a6acfeb3c1b2"
+    }
+  ], 
+  "file_name": "488f53a2-92f8-4164-adc8-28b738a312fb.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "488f53a2-92f8-4164-adc8-28b738a312fb_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "d03128df-c690-4b8d-8ff6-5b3513e1e24c_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "d03128df-c690-4b8d-8ff6-5b3513e1e24c", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-28T23:35:40.768752-05:00", 
+        "file_size": 11435511909, 
+        "updated_datetime": "2018-11-15T21:38:44.655215-06:00", 
+        "md5sum": "42c1d163b0f0357d93ca0d12081cd1f6", 
+        "file_id": "af92fe76-423d-4262-a75c-8688d549138d", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "488f53a2-92f8-4164-adc8-28b738a312fb_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "210090aa-4d07-48ff-af0d-e57cb294f796", 
+    "created_datetime": "2016-05-29T10:36:35.260012-05:00"
+  }, 
+  "file_size": 531837, 
+  "md5sum": "71acfd189d0265a346bd6ccaa239511a", 
+  "file_id": "90806fde-a6a6-4096-88dd-66fc1ac7dc68", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A26X-01A-31R-A16F-07", 
+      "entity_type": "aliquot", 
+      "case_id": "70ab4f23-23c4-409f-a5cc-18a010c3a24e", 
+      "entity_id": "5213da80-35ac-4172-b2e8-de686e73a498"
+    }
+  ], 
+  "file_name": "8a244dd2-0dc1-429c-81a1-5873ce536b47.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "8a244dd2-0dc1-429c-81a1-5873ce536b47_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "e7a0b0d1-4ebd-4291-908a-23b2a0e669f5_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "e7a0b0d1-4ebd-4291-908a-23b2a0e669f5", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-29T18:08:36.399228-05:00", 
+        "file_size": 11748002017, 
+        "updated_datetime": "2018-11-15T21:47:23.001784-06:00", 
+        "md5sum": "096be515c2c6988d1ddbb752a8f28222", 
+        "file_id": "d195664a-67fa-4744-a06c-6d853e7b91cc", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "8a244dd2-0dc1-429c-81a1-5873ce536b47_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "81c2fbc3-b03d-4ab2-8b4a-fd8c4ae92a50", 
+    "created_datetime": "2016-05-30T18:18:50.685029-05:00"
+  }, 
+  "file_size": 510768, 
+  "md5sum": "dbce53fdf445ff730495fcf3facc501d", 
+  "file_id": "d118e9ca-2282-43c0-951b-6a880f9ed5a3", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-EW-A1IX-01A-12R-A144-07", 
+      "entity_type": "aliquot", 
+      "case_id": "e8614b7d-132e-4b4e-b1ae-df8bb4f2d4d4", 
+      "entity_id": "b908cd1b-b274-4b23-9cd5-b59d93a7a6c2"
+    }
+  ], 
+  "file_name": "bd7bf37d-b076-4e82-bc73-83454dba8ff1.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "bd7bf37d-b076-4e82-bc73-83454dba8ff1_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "425da6ae-1135-4a28-96b6-dbc9eb991091_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "425da6ae-1135-4a28-96b6-dbc9eb991091", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-29T11:13:15.266892-05:00", 
+        "file_size": 7054854504, 
+        "updated_datetime": "2018-11-15T21:12:37.513272-06:00", 
+        "md5sum": "e7ecb04a7355bd8944f99e5f216d6efb", 
+        "file_id": "8051146d-c71d-44cd-983c-ad1f99f65908", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "bd7bf37d-b076-4e82-bc73-83454dba8ff1_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "595cd623-37f2-4c4f-a858-5c52447a75c7", 
+    "created_datetime": "2016-05-29T11:15:42.824605-05:00"
+  }, 
+  "file_size": 522870, 
+  "md5sum": "4d97a7646cf48b39cfb65457d67f5057", 
+  "file_id": "a14f3eb9-20d7-4b22-8721-060ec25fdd0d", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A1HF-01A-11R-A137-07", 
+      "entity_type": "aliquot", 
+      "case_id": "a2453bcb-90f2-4505-949d-a89cf4bfc9b8", 
+      "entity_id": "62b06301-531d-4fc1-bb00-ede8e507e8f4"
+    }
+  ], 
+  "file_name": "baa3cdc1-1ee8-4aab-80f9-dafa35cc5fbf.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "baa3cdc1-1ee8-4aab-80f9-dafa35cc5fbf_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "4664e62c-2b3c-4bef-8033-79658fce6a0f_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "4664e62c-2b3c-4bef-8033-79658fce6a0f", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-30T01:31:33.592382-05:00", 
+        "file_size": 9895390609, 
+        "updated_datetime": "2018-11-15T21:47:23.001784-06:00", 
+        "md5sum": "f7d966f54592459728dfd01aec07d18d", 
+        "file_id": "bf3dcfd7-3847-4a46-bbf6-b29028c32bec", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "baa3cdc1-1ee8-4aab-80f9-dafa35cc5fbf_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "2b52ec5c-8159-465b-a482-26818fcfa444", 
+    "created_datetime": "2016-05-30T18:35:31.382433-05:00"
+  }, 
+  "file_size": 515534, 
+  "md5sum": "2109bb2eb7f60bb8dede85a17b58c659", 
+  "file_id": "a892dc87-e874-4bd4-911f-7db4bb0c52c5", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-AO-A126-01A-11R-A10J-07", 
+      "entity_type": "aliquot", 
+      "case_id": "cc0902fd-a2fc-4327-929e-d4219e32e1d7", 
+      "entity_id": "690cf196-9b2c-4886-a0e2-ce3a49cb4389"
+    }
+  ], 
+  "file_name": "82bfc74a-cb0f-4966-b53e-c7b535ae7f23.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "82bfc74a-cb0f-4966-b53e-c7b535ae7f23_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "7472aea1-2927-4f6b-ae11-ab7f7970edd0_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "7472aea1-2927-4f6b-ae11-ab7f7970edd0", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-30T02:49:57.316251-05:00", 
+        "file_size": 8417749357, 
+        "updated_datetime": "2018-11-15T22:04:38.004773-06:00", 
+        "md5sum": "6c7d42c7dc27f5a4c5c134f7abca578f", 
+        "file_id": "ef59eb93-ef8a-4f20-82fc-82d2eaddc2af", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "82bfc74a-cb0f-4966-b53e-c7b535ae7f23_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "beacecfa-a194-4765-97a7-dd1e319e2c07", 
+    "created_datetime": "2016-05-30T18:48:56.200200-05:00"
+  }, 
+  "file_size": 505443, 
+  "md5sum": "02220ab5d118e946d3e25792e3b447eb", 
+  "file_id": "50b06a1f-167a-4ba9-a279-21e66460a197", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A135-01A-11R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "33cea538-4c3f-470a-972d-257c43241ab4", 
+      "entity_id": "306818e8-2e51-4dee-b27c-53ee9cea8d03"
+    }
+  ], 
+  "file_name": "48a95042-0ff3-41a6-a447-dc3a64d087fc.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "48a95042-0ff3-41a6-a447-dc3a64d087fc_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "5fa01a44-f39b-4fc2-aa99-c8d9ed4c46ad_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "5fa01a44-f39b-4fc2-aa99-c8d9ed4c46ad", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-27T02:51:44.791327-05:00", 
+        "file_size": 6711216595, 
+        "updated_datetime": "2018-11-15T21:47:23.001784-06:00", 
+        "md5sum": "e11f521924cf6f27cb3698e05f6ef2e8", 
+        "file_id": "d00cbe98-abe9-443e-bec8-16c87e6dc48e", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "48a95042-0ff3-41a6-a447-dc3a64d087fc_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "e8f7ca4d-3723-475e-9e63-c0b6bce48aa7", 
+    "created_datetime": "2016-05-29T10:10:33.726222-05:00"
+  }, 
+  "file_size": 511261, 
+  "md5sum": "4a6c235c8d73e18dfa113ca3c9c15cb9", 
+  "file_id": "e0376c26-0184-44dd-827b-a20463ff8bb2", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A1HE-01A-11R-A13Q-07", 
+      "entity_type": "aliquot", 
+      "case_id": "b26d41cd-393b-4cd4-8925-a9488f7de576", 
+      "entity_id": "b5f56bfb-6fc1-448f-8c2b-4753084aaa00"
+    }
+  ], 
+  "file_name": "62a17809-7816-47cf-959d-f00e5ea0c3b4.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "62a17809-7816-47cf-959d-f00e5ea0c3b4_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "df1cdc79-943a-447b-812f-9cb0d0324ee8_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "df1cdc79-943a-447b-812f-9cb0d0324ee8", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-28T23:00:01.959046-05:00", 
+        "file_size": 11517707463, 
+        "updated_datetime": "2018-11-15T20:57:47.372612-06:00", 
+        "md5sum": "8fa9e570361deb016c80b7604161e73d", 
+        "file_id": "6038a375-f672-4985-b3bc-06d94b033ce7", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "62a17809-7816-47cf-959d-f00e5ea0c3b4_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "d0456825-0603-4e3c-8a6d-27b44bfb0d66", 
+    "created_datetime": "2016-05-29T10:58:20.858960-05:00"
+  }, 
+  "file_size": 525748, 
+  "md5sum": "a86a343b36c7dccdd716fa7d63e07bcc", 
+  "file_id": "2a4f53bf-8972-4533-8ef7-6ef20ffd2aaa", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A12X-01A-11R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "65cde5d5-1efc-4e30-b1bd-a93598794f2c", 
+      "entity_id": "2efa4fd0-1c0b-49c8-a11f-606d8618ec97"
+    }
+  ], 
+  "file_name": "2627073d-a532-4d75-9937-0a4f62df51f9.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "2627073d-a532-4d75-9937-0a4f62df51f9_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "b6509c00-5623-4138-8a69-10226ef602a3_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "b6509c00-5623-4138-8a69-10226ef602a3", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-29T06:12:46.508571-05:00", 
+        "file_size": 12962846560, 
+        "updated_datetime": "2018-11-15T20:08:12.509468-06:00", 
+        "md5sum": "28698c6074e2684f1d20f1ce72c859aa", 
+        "file_id": "23145216-9ded-4ab5-9f66-6509f5a64438", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "2627073d-a532-4d75-9937-0a4f62df51f9_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "25e7e30c-b9db-4af4-a8a7-50c89f18eaae", 
+    "created_datetime": "2016-05-29T10:40:03.233379-05:00"
+  }, 
+  "file_size": 497023, 
+  "md5sum": "174b9c487a75394586a7c2a2742fed9e", 
+  "file_id": "edc18f90-2d41-4d1b-bf5b-e2b153ce6cbb", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-AC-A2FF-01A-11R-A17B-07", 
+      "entity_type": "aliquot", 
+      "case_id": "3ca67cd0-81da-4f68-a9fa-f1a8c013c28d", 
+      "entity_id": "f99cbdbb-ae9c-4dc2-9b69-eeaa7798c2b8"
+    }
+  ], 
+  "file_name": "9683e884-734f-4487-97e6-5ada5e3d3ebc.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "9683e884-734f-4487-97e6-5ada5e3d3ebc_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "9b31f7e2-0c06-48d3-abfa-430371b0c107_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "9b31f7e2-0c06-48d3-abfa-430371b0c107", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-27T09:38:31.220974-05:00", 
+        "file_size": 10565311203, 
+        "updated_datetime": "2018-11-15T20:20:28.822215-06:00", 
+        "md5sum": "c42beef34e341f7a0fd1062e2f9bf93f", 
+        "file_id": "37bf962c-b180-4cc2-8e0b-fde78b4f99f4", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "9683e884-734f-4487-97e6-5ada5e3d3ebc_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "da1be2e4-f850-4ef1-afab-93d2724c529c", 
+    "created_datetime": "2016-05-29T10:15:42.581745-05:00"
+  }, 
+  "file_size": 534982, 
+  "md5sum": "ed849f4ea8c04af630cba5929820b975", 
+  "file_id": "3f65d017-8bfc-46f0-999d-89c39289e6d0", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-JL-A3YX-01A-11R-A22U-07", 
+      "entity_type": "aliquot", 
+      "case_id": "75f6e476-233a-409c-a3ef-0240be569813", 
+      "entity_id": "b2b92b23-3f2a-4305-8c6c-27c91c67c072"
+    }
+  ], 
+  "file_name": "e5ab04dc-af44-4a07-ad5c-d3845c91d7ef.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "e5ab04dc-af44-4a07-ad5c-d3845c91d7ef_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "b0363f34-ad46-42b2-be94-eec3be39160b_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "b0363f34-ad46-42b2-be94-eec3be39160b", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-30T00:03:47.999019-05:00", 
+        "file_size": 9240574102, 
+        "updated_datetime": "2018-11-15T20:57:47.372612-06:00", 
+        "md5sum": "6cc34f9d1b4ceb01be31168381b35843", 
+        "file_id": "54b2bc01-3abf-446c-bed4-badd3917b589", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "e5ab04dc-af44-4a07-ad5c-d3845c91d7ef_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "8d3e713a-8c03-4fa6-8674-8e37538720fd", 
+    "created_datetime": "2016-05-30T18:21:48.363616-05:00"
+  }, 
+  "file_size": 524951, 
+  "md5sum": "a010d3d5cbd47d53a08d7fceba7b8663", 
+  "file_id": "bd836dc6-095a-40f8-ad91-c0a4901d1991", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A1HM-01A-12R-A137-07", 
+      "entity_type": "aliquot", 
+      "case_id": "8b525ec6-d24b-49d4-bfcb-b354de4dae7c", 
+      "entity_id": "eb908a6f-d6f2-40ef-90da-97438cd2281e"
+    }
+  ], 
+  "file_name": "f966cb98-e661-453d-b1ae-aacf5876520a.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "f966cb98-e661-453d-b1ae-aacf5876520a_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "932c39c5-f808-4fd7-ada8-896148e99965_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "932c39c5-f808-4fd7-ada8-896148e99965", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-29T00:20:47.180667-05:00", 
+        "file_size": 5331057226, 
+        "updated_datetime": "2018-11-15T20:20:28.822215-06:00", 
+        "md5sum": "245c86c7d914794b102896f8e3e60e3a", 
+        "file_id": "34610274-e1e7-4e0b-90cc-2032bbd4485c", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "f966cb98-e661-453d-b1ae-aacf5876520a_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "90ceceb6-70fc-4c4f-ba7d-504e0f093ccf", 
+    "created_datetime": "2016-05-29T10:49:01.929047-05:00"
+  }, 
+  "file_size": 510343, 
+  "md5sum": "114921710e26f8087c1b99acd214aa23", 
+  "file_id": "e854b99f-17bc-4e9d-8b36-fbc3ff35c46c", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-AC-A2FF-11A-13R-A17B-07", 
+      "entity_type": "aliquot", 
+      "case_id": "3ca67cd0-81da-4f68-a9fa-f1a8c013c28d", 
+      "entity_id": "3610639e-d947-446f-8483-86be65c80ed3"
+    }
+  ], 
+  "file_name": "9da11996-ba83-4163-bc96-c20a038ee77b.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "9da11996-ba83-4163-bc96-c20a038ee77b_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "4d3f22de-948d-4335-bdb3-8933c117218b_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "4d3f22de-948d-4335-bdb3-8933c117218b", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-27T09:36:36.053320-05:00", 
+        "file_size": 10733647782, 
+        "updated_datetime": "2018-11-15T20:46:44.319330-06:00", 
+        "md5sum": "337ae0e00016c50b4d23a6de3b9694a9", 
+        "file_id": "4d32c4fa-959e-41cf-b837-104290bab9fa", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "9da11996-ba83-4163-bc96-c20a038ee77b_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "aea8ce9d-c37b-42c4-8cb8-50d1e2f9b31f", 
+    "created_datetime": "2016-05-29T10:15:41.992959-05:00"
+  }, 
+  "file_size": 544302, 
+  "md5sum": "7ae10399759af5ac8e0bd34e970fb13b", 
+  "file_id": "fa56e9db-9610-44b6-a58c-9dc12c4c7e41", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A1HJ-01A-11R-A13Q-07", 
+      "entity_type": "aliquot", 
+      "case_id": "a855c228-a263-44df-87a0-cbc32187e3f5", 
+      "entity_id": "c0dd6c33-008d-44e8-b20c-8089bc3e29a3"
+    }
+  ], 
+  "file_name": "d6608d24-28bc-4d51-b6d8-8fec450a858f.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "d6608d24-28bc-4d51-b6d8-8fec450a858f_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "84a33514-8aa3-449a-8883-c821fdff6716_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "84a33514-8aa3-449a-8883-c821fdff6716", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-30T07:46:18.130880-05:00", 
+        "file_size": 10206315433, 
+        "updated_datetime": "2018-11-15T21:12:37.513272-06:00", 
+        "md5sum": "1772009e68285682417d41dbaf126402", 
+        "file_id": "6e5e31f2-303f-42fe-95ad-e5ab9b9f14e5", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "d6608d24-28bc-4d51-b6d8-8fec450a858f_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "533f77a8-dff5-48b1-9c30-03a457beca40", 
+    "created_datetime": "2016-05-30T18:38:30.516786-05:00"
+  }, 
+  "file_size": 538268, 
+  "md5sum": "d83066096559856371a7161b1c57f979", 
+  "file_id": "6e7c7f8f-c51a-4eb5-b584-25fb04dfd1dc", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A8HP-01A-11R-A36F-07", 
+      "entity_type": "aliquot", 
+      "case_id": "8db69f1d-72e2-40ba-ad8a-cf228499840d", 
+      "entity_id": "02cf1db9-55c0-4ece-b230-966b30cd0b94"
+    }
+  ], 
+  "file_name": "c14af0e0-81e9-43e7-b08d-b751194e35ef.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "c14af0e0-81e9-43e7-b08d-b751194e35ef_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "6ac74c40-8b13-49b6-982c-2110b47f9869_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "6ac74c40-8b13-49b6-982c-2110b47f9869", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-29T03:04:31.565313-05:00", 
+        "file_size": 6057575185, 
+        "updated_datetime": "2018-11-15T20:46:44.319330-06:00", 
+        "md5sum": "8bbac7df88ed64e74f5be607726365e0", 
+        "file_id": "46bb175a-3b68-409a-9f17-94dfc9ddaf99", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "c14af0e0-81e9-43e7-b08d-b751194e35ef_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "1013a055-1c74-43f3-82a1-f659c97a32d7", 
+    "created_datetime": "2016-05-29T10:50:22.780841-05:00"
+  }, 
+  "file_size": 512908, 
+  "md5sum": "3127c6d4410a8c7fcfa7167125f33660", 
+  "file_id": "61e9f2b1-486d-4c24-8c3b-96205a90f2d7", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A1HN-01A-11R-A137-07", 
+      "entity_type": "aliquot", 
+      "case_id": "86a18ae0-dfb1-49c3-b5c4-67ec331d6e40", 
+      "entity_id": "4795628e-50d8-41e0-b3c6-00fe4600dc5d"
+    }
+  ], 
+  "file_name": "2163b681-ae29-4907-8f15-6c3665eae736.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "2163b681-ae29-4907-8f15-6c3665eae736_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "cfce62cd-44ee-4212-9d21-e11b50d7204b_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "cfce62cd-44ee-4212-9d21-e11b50d7204b", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-28T17:37:09.055439-05:00", 
+        "file_size": 11289900595, 
+        "updated_datetime": "2018-11-15T20:57:47.372612-06:00", 
+        "md5sum": "cf372d6da3e0f2a3d261ba332dcdefb1", 
+        "file_id": "63b85b56-ebfe-48a9-a247-c54e440abd9e", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "2163b681-ae29-4907-8f15-6c3665eae736_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "36f89de0-7bb3-41f7-8032-cb18e55edbaa", 
+    "created_datetime": "2016-05-29T10:45:59.262630-05:00"
+  }, 
+  "file_size": 520878, 
+  "md5sum": "d77be4379c7dee0202b0fc0787771ed3", 
+  "file_id": "f63aedf7-e839-497b-aa11-0c90e81ed9b9", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A27B-01A-11R-A169-07", 
+      "entity_type": "aliquot", 
+      "case_id": "f0d8a1fe-e313-44f1-99cc-b965cbeeff0e", 
+      "entity_id": "fb03a31f-6611-4343-816d-37a332147eac"
+    }
+  ], 
+  "file_name": "b667a6ae-353f-4045-a442-a4320231ed73.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "b667a6ae-353f-4045-a442-a4320231ed73_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "1a48ac7a-26b8-4be2-b88b-aaa026b3df64_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "1a48ac7a-26b8-4be2-b88b-aaa026b3df64", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-29T21:10:46.224716-05:00", 
+        "file_size": 13460983573, 
+        "updated_datetime": "2018-11-15T21:56:00.379896-06:00", 
+        "md5sum": "b73cae0d07ecdcad65f4358dc36b0200", 
+        "file_id": "d9591544-8a14-414a-9ab8-729f870105c3", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "b667a6ae-353f-4045-a442-a4320231ed73_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "461ec1a9-e50f-455e-9b35-62eff2d28dc0", 
+    "created_datetime": "2016-05-30T18:59:59.135528-05:00"
+  }, 
+  "file_size": 524014, 
+  "md5sum": "f752196b5b8bce05708f6e4b68a07649", 
+  "file_id": "f26d4675-ac07-4c59-add7-acb33def0754", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A12W-01A-11R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "6adca853-1b09-47ff-814c-47b732a76d96", 
+      "entity_id": "24e6e8f5-3caa-46f0-8915-7bd09f0736f9"
+    }
+  ], 
+  "file_name": "dc322491-2407-401e-a422-96be40d6518f.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "dc322491-2407-401e-a422-96be40d6518f_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "7e763aaa-c11a-4165-8406-af949ee94efe_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "7e763aaa-c11a-4165-8406-af949ee94efe", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-29T12:20:11.395292-05:00", 
+        "file_size": 7670753291, 
+        "updated_datetime": "2018-11-15T20:20:28.822215-06:00", 
+        "md5sum": "c68d1293766123885cba4bc4d6ad88a5", 
+        "file_id": "36e04a43-61ac-4678-896f-fb2873569fbb", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "dc322491-2407-401e-a422-96be40d6518f_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "b0045b34-9b1e-4265-9400-8fb7a2f81fcd", 
+    "created_datetime": "2016-05-30T18:16:06.319013-05:00"
+  }, 
+  "file_size": 504022, 
+  "md5sum": "810a50c59926a8fb41baf121f12ffe32", 
+  "file_id": "7ca91695-ff54-4418-9ed1-e914cf36291e", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-A1-A0SK-01A-12R-A084-07", 
+      "entity_type": "aliquot", 
+      "case_id": "a5b44d66-c162-46b5-9df2-86305f0385c5", 
+      "entity_id": "a63583ca-0ef2-4417-b435-5f3a6951d0c2"
+    }
+  ], 
+  "file_name": "b033c85a-2395-4ced-a84d-ac1fbce674bf.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "b033c85a-2395-4ced-a84d-ac1fbce674bf_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "8b3fa61a-ee66-42fd-bb9a-b98ff556df1f_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "8b3fa61a-ee66-42fd-bb9a-b98ff556df1f", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-30T05:18:01.226737-05:00", 
+        "file_size": 8453633198, 
+        "updated_datetime": "2018-11-15T21:21:29.863147-06:00", 
+        "md5sum": "39a9ee6e625a89b3edaa2b5d6ac61aca", 
+        "file_id": "8c4f4470-7697-48fd-88e8-32bcd09c7512", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "b033c85a-2395-4ced-a84d-ac1fbce674bf_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "c7fb8e3f-9742-4899-9ea2-dbd7e3a10392", 
+    "created_datetime": "2016-05-30T18:37:15.491742-05:00"
+  }, 
+  "file_size": 522956, 
+  "md5sum": "14b5f1f2ec9b000da05aa76aa4536df1", 
+  "file_id": "86bc1873-1354-4b0c-9054-84d3201fa5e4", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A12N-01A-11R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "b8a615f9-d19b-4b09-8ec8-0674e5c648cd", 
+      "entity_id": "9eb3306d-6c84-4bc1-be42-4bd00ef46cbb"
+    }
+  ], 
+  "file_name": "36d40974-4d4f-4726-b98f-1ceab329d0bf.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "36d40974-4d4f-4726-b98f-1ceab329d0bf_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "510d2d4a-70d1-4027-9f36-98452d3bd1d8_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "510d2d4a-70d1-4027-9f36-98452d3bd1d8", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-29T05:20:09.853096-05:00", 
+        "file_size": 8239906660, 
+        "updated_datetime": "2018-11-15T20:46:44.319330-06:00", 
+        "md5sum": "4fc33ccba857db74b6b125c2181dfb33", 
+        "file_id": "425ee0e1-9f17-48d7-8811-61d0096d7b08", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "36d40974-4d4f-4726-b98f-1ceab329d0bf_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "0acce920-678b-44a1-b55a-377d2336e29a", 
+    "created_datetime": "2016-05-29T11:01:47.856598-05:00"
+  }, 
+  "file_size": 519116, 
+  "md5sum": "a0ba4d08132d686acc2510a0eb8e3e94", 
+  "file_id": "3bc08992-002e-47c5-93a6-fd1a71f5cb4c", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A278-01A-11R-A169-07", 
+      "entity_type": "aliquot", 
+      "case_id": "65077db7-dd59-4362-9d28-d5a9154e9be0", 
+      "entity_id": "8cdae811-9f3f-4c8b-9fe5-e542d30d40f2"
+    }
+  ], 
+  "file_name": "a8a58442-78f5-4876-b25e-c04339eb6f26.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "a8a58442-78f5-4876-b25e-c04339eb6f26_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "ee7d6175-4cf4-4a4b-bc7f-c9066d6078e1_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "ee7d6175-4cf4-4a4b-bc7f-c9066d6078e1", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-29T05:29:22.944671-05:00", 
+        "file_size": 10958144223, 
+        "updated_datetime": "2018-11-15T22:04:38.004773-06:00", 
+        "md5sum": "e7a285b73ed591690d4e660fe3a7eb14", 
+        "file_id": "e7e712f9-236e-49fc-867d-7c7b98ef0874", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "a8a58442-78f5-4876-b25e-c04339eb6f26_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "85858482-0bbe-4293-bb29-b97decba259e", 
+    "created_datetime": "2016-05-29T10:39:42.379304-05:00"
+  }, 
+  "file_size": 523351, 
+  "md5sum": "659576592e11d505b1f40830b1e7e6ee", 
+  "file_id": "dc9498d6-e133-4fb6-89a9-0f789638a0f2", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A137-01A-11R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "03ab1e9f-4918-404d-b178-3a4fd929c5e8", 
+      "entity_id": "2c829af4-a6a7-48b1-9e48-a88be0564752"
+    }
+  ], 
+  "file_name": "ecefab08-36f5-4a49-9e4d-9e6def0d747e.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "ecefab08-36f5-4a49-9e4d-9e6def0d747e_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "92496454-fc9f-4e5f-a0df-eb5798966eae_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "92496454-fc9f-4e5f-a0df-eb5798966eae", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-25T18:39:21.843227-05:00", 
+        "file_size": 5541458192, 
+        "updated_datetime": "2018-11-15T20:20:28.822215-06:00", 
+        "md5sum": "14e14c236b819c74721e9c05cb61541a", 
+        "file_id": "3b7d97d0-fb47-4d9d-b521-2bf6bc80c7a7", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "ecefab08-36f5-4a49-9e4d-9e6def0d747e_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "799a5cb6-52dd-4aaa-bcfd-827dfc2d49da", 
+    "created_datetime": "2016-05-26T21:06:49.774482-05:00"
+  }, 
+  "file_size": 481417, 
+  "md5sum": "27cc5278f1287ba665c16576eab1bf49", 
+  "file_id": "cf8f56c2-7560-4342-95a4-766c689d2890", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A132-01A-31R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "89e867de-d30e-4bfc-a453-0a76309dabd5", 
+      "entity_id": "143e8620-56cc-4b65-a2aa-d793543f6854"
+    }
+  ], 
+  "file_name": "5fbf674e-49f3-4af8-9c9c-20a528ad0684.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "5fbf674e-49f3-4af8-9c9c-20a528ad0684_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "a42b032d-bddd-44e1-9d85-3bca19a59b36_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "a42b032d-bddd-44e1-9d85-3bca19a59b36", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-28T22:52:24.682605-05:00", 
+        "file_size": 8562880255, 
+        "updated_datetime": "2018-11-15T20:57:47.372612-06:00", 
+        "md5sum": "43836ed0f4cf366426d88fabddd6e33f", 
+        "file_id": "5aa0f908-7d63-47c6-8fc1-0ef20f7a645b", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "5fbf674e-49f3-4af8-9c9c-20a528ad0684_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "1c1823cf-6884-41da-a28e-84b87be4875d", 
+    "created_datetime": "2016-05-29T10:48:19.007603-05:00"
+  }, 
+  "file_size": 527006, 
+  "md5sum": "0370530ee009891d53a72a65a3ed4d62", 
+  "file_id": "79e50b21-862b-4e58-a74d-939d85d88da2", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A275-01A-21R-A16F-07", 
+      "entity_type": "aliquot", 
+      "case_id": "ce887e90-0660-4f44-a3a4-b3b894cb7eda", 
+      "entity_id": "59c6ed76-762c-4caa-98c1-0886b6d9651c"
+    }
+  ], 
+  "file_name": "4ba6c212-ef90-4ab3-b551-35c05cb6df90.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "4ba6c212-ef90-4ab3-b551-35c05cb6df90_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "77eb3e77-a253-4cd7-8614-ba261dd18a35_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "77eb3e77-a253-4cd7-8614-ba261dd18a35", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-30T05:10:08.223989-05:00", 
+        "file_size": 12272113594, 
+        "updated_datetime": "2018-11-15T21:38:44.655215-06:00", 
+        "md5sum": "80518616a741ff0831173c079e80c9b1", 
+        "file_id": "af9301ac-d033-4452-aea1-f856e8119598", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "4ba6c212-ef90-4ab3-b551-35c05cb6df90_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "e44411a3-cf44-4517-80b0-abb6d37d0210", 
+    "created_datetime": "2016-05-30T18:50:08.516203-05:00"
+  }, 
+  "file_size": 521039, 
+  "md5sum": "f426e0274fa698428558d2074b22e504", 
+  "file_id": "1d4fd1cb-6538-4325-bddc-2ced7f437f13", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A12Z-01A-11R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "42621dfa-abfd-4c7d-8bc5-a02a09d1c2b4", 
+      "entity_id": "4018d26c-0ce0-4c5a-9ce4-200bb4273349"
+    }
+  ], 
+  "file_name": "aa08f8f5-e41d-4987-aa65-5cfe5fedeb1b.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "aa08f8f5-e41d-4987-aa65-5cfe5fedeb1b_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "3d40a292-9515-4b0d-8fa7-9ff8f05d2af9_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "3d40a292-9515-4b0d-8fa7-9ff8f05d2af9", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-27T14:29:18.105749-05:00", 
+        "file_size": 6973040416, 
+        "updated_datetime": "2018-11-15T20:20:28.822215-06:00", 
+        "md5sum": "f8a4fd314f8a75d1e0fd8126257efd0c", 
+        "file_id": "3a716b4c-2a44-44ee-a93b-f4d1622cb383", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "aa08f8f5-e41d-4987-aa65-5cfe5fedeb1b_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "ccf6ac4b-a4ba-4bcd-a89a-ddb0f552898d", 
+    "created_datetime": "2016-05-29T10:19:15.995274-05:00"
+  }, 
+  "file_size": 500358, 
+  "md5sum": "aa3db48c670c6188b06e7deb3bc73fd1", 
+  "file_id": "de6e7d2f-de34-4ee9-b7a4-cf90dc3555d7", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A12Y-01A-11R-A12D-07", 
+      "entity_type": "aliquot", 
+      "case_id": "298a1710-deb4-4064-a0f2-da32d43aa217", 
+      "entity_id": "ef42155a-112e-48fe-b52a-a99ebcd5f7f5"
+    }
+  ], 
+  "file_name": "e8201ee9-2e0a-4a8e-bc99-6e2482da919d.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "e8201ee9-2e0a-4a8e-bc99-6e2482da919d_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "aff01c94-f02d-4aaf-9920-d05bd6442c74_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "aff01c94-f02d-4aaf-9920-d05bd6442c74", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-26T19:30:57.487797-05:00", 
+        "file_size": 10110849642, 
+        "updated_datetime": "2018-11-15T21:38:44.655215-06:00", 
+        "md5sum": "28dfbd38ad13f48b88d86eb33f278a1d", 
+        "file_id": "bbf0d03c-268a-4dfd-8f70-fb8d14aca654", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "e8201ee9-2e0a-4a8e-bc99-6e2482da919d_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "28505b81-cfd0-49be-b177-8b9b0f5cf69b", 
+    "created_datetime": "2016-05-26T21:25:31.153255-05:00"
+  }, 
+  "file_size": 491505, 
+  "md5sum": "e3f64140104eaf69f108cebc26bc03dd", 
+  "file_id": "5ccb3e09-5998-4519-9afc-9eb9de044a1f", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A3M8-01A-11R-A213-07", 
+      "entity_type": "aliquot", 
+      "case_id": "c1e704d6-a33b-4891-90bd-992b0040c075", 
+      "entity_id": "a04ad65d-6d83-4e84-8bd8-3cab2a195642"
+    }
+  ], 
+  "file_name": "a8e5861f-e86c-473d-8ff7-5630532b3c61.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "a8e5861f-e86c-473d-8ff7-5630532b3c61_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "ee1387fe-6890-4b23-94b6-bd3586f65be5_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "ee1387fe-6890-4b23-94b6-bd3586f65be5", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-29T16:36:08.444289-05:00", 
+        "file_size": 12251656260, 
+        "updated_datetime": "2018-11-15T19:59:41.719344-06:00", 
+        "md5sum": "dfec9cd83e70ef7e216137804a1f1e8a", 
+        "file_id": "0af0c741-eb45-498a-8d8c-182d1d6abd69", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "a8e5861f-e86c-473d-8ff7-5630532b3c61_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "f7e63ade-26f0-47f9-864c-5eef272d5828", 
+    "created_datetime": "2016-05-30T18:43:54.782423-05:00"
+  }, 
+  "file_size": 532518, 
+  "md5sum": "c0ea72cce54c89268b115e306c9fa4bc", 
+  "file_id": "0276de7f-98a7-40af-99ec-716d6fd57405", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A8HR-01A-11R-A36F-07", 
+      "entity_type": "aliquot", 
+      "case_id": "dcb68327-1537-4ca6-81de-3910d0663cb8", 
+      "entity_id": "d817dcee-1322-4949-a6e9-138447e6fc56"
+    }
+  ], 
+  "file_name": "f87f2bab-c823-41dc-aac7-75d626ec8200.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "f87f2bab-c823-41dc-aac7-75d626ec8200_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "aff8161b-dc61-4887-9b9d-6219b788a65e_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "aff8161b-dc61-4887-9b9d-6219b788a65e", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-28T22:18:24.837000-05:00", 
+        "file_size": 6270205409, 
+        "updated_datetime": "2018-11-15T19:59:41.719344-06:00", 
+        "md5sum": "28c7db56e68bf210e616fbafb49105eb", 
+        "file_id": "0a3555d2-16fa-4798-851f-8217315a0b82", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "f87f2bab-c823-41dc-aac7-75d626ec8200_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "be29147c-e563-4737-9dcb-6010f2efadf4", 
+    "created_datetime": "2016-05-29T11:08:15.113805-05:00"
+  }, 
+  "file_size": 524262, 
+  "md5sum": "6f8d6ec8594fa4d545a6d12ce7049d06", 
+  "file_id": "6e96f3bd-bb65-407f-91c2-5028282acfe3", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A1HG-01A-11R-A137-07", 
+      "entity_type": "aliquot", 
+      "case_id": "0c23c380-363c-474d-b64c-b47f612a8225", 
+      "entity_id": "094076d0-97e4-460d-b48c-7ee2371db99d"
+    }
+  ], 
+  "file_name": "65bcca98-e3eb-40f6-9eed-84b1c09da28e.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "65bcca98-e3eb-40f6-9eed-84b1c09da28e_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "19580929-35d4-49b3-84a6-ed5bc2a2269e_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "19580929-35d4-49b3-84a6-ed5bc2a2269e", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-26T01:00:48.472399-05:00", 
+        "file_size": 4369935958, 
+        "updated_datetime": "2018-11-15T21:12:37.513272-06:00", 
+        "md5sum": "7b1d177c6341a14afe6b6f4f0b161b5c", 
+        "file_id": "7d31fd65-eac0-4bbb-b129-f40f31d90179", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "65bcca98-e3eb-40f6-9eed-84b1c09da28e_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "a9304070-c0b2-407e-9a00-ebac43f1cc38", 
+    "created_datetime": "2016-05-26T21:11:12.101702-05:00"
+  }, 
+  "file_size": 488940, 
+  "md5sum": "039f8d4bf6599b9b488d363ef835e945", 
+  "file_id": "714b1c15-a966-4bb6-aa7b-6192f7f4a825", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A3M7-01A-12R-A21T-07", 
+      "entity_type": "aliquot", 
+      "case_id": "959ff069-8a49-4c9b-85c2-5291cac0acff", 
+      "entity_id": "b55b6630-7cf5-4bca-b76f-e135271018e4"
+    }
+  ], 
+  "file_name": "d229a59b-4f6c-4714-8dd5-1c714a764b22.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "d229a59b-4f6c-4714-8dd5-1c714a764b22_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "01b10b2c-282f-4fd0-9878-bd7ca3aa505c_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "01b10b2c-282f-4fd0-9878-bd7ca3aa505c", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-29T11:11:03.038643-05:00", 
+        "file_size": 8245432940, 
+        "updated_datetime": "2018-11-15T20:08:12.509468-06:00", 
+        "md5sum": "c03dd7453f78ec7a92f3b97ae051aefb", 
+        "file_id": "24c4e72e-7b5c-4845-acce-855e2d79663d", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "d229a59b-4f6c-4714-8dd5-1c714a764b22_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "41abed94-3993-4f0e-9494-db49eee6fc07", 
+    "created_datetime": "2016-05-30T18:29:00.670249-05:00"
+  }, 
+  "file_size": 530904, 
+  "md5sum": "d401e9cb1812210e1692f83df95277ba", 
+  "file_id": "0039181f-544b-4ee6-8d6b-ea9daf1adfe0", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-AO-A03L-01A-41R-A056-07", 
+      "entity_type": "aliquot", 
+      "case_id": "1174f6e4-ffbe-4e59-a000-8d861c968369", 
+      "entity_id": "34980e1d-956b-4d89-8bf2-dcc008dbaad7"
+    }
+  ], 
+  "file_name": "c1c1111e-858a-438e-8bb6-90df4defcede.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "c1c1111e-858a-438e-8bb6-90df4defcede_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "98cfb9c2-7c1e-4bc3-bea7-33b1ecb3ec0d_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "98cfb9c2-7c1e-4bc3-bea7-33b1ecb3ec0d", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-26T04:17:16.262159-05:00", 
+        "file_size": 7123039853, 
+        "updated_datetime": "2018-11-15T20:57:47.372612-06:00", 
+        "md5sum": "5efa6fa3b7af35872e14ad2f5f9db487", 
+        "file_id": "5282c243-8d44-485a-beeb-ffb62201a60b", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "c1c1111e-858a-438e-8bb6-90df4defcede_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "56d03f69-74de-4233-8517-c3f77cdbefe3", 
+    "created_datetime": "2016-05-26T21:13:52.236963-05:00"
+  }, 
+  "file_size": 517003, 
+  "md5sum": "04b1bcff056c3a736f2dce2939c48958", 
+  "file_id": "ce638cad-65db-40b1-8c3d-95efa0dd4b3e", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A1HI-01A-11R-A137-07", 
+      "entity_type": "aliquot", 
+      "case_id": "444374f8-9282-439c-af00-0f828edcbff3", 
+      "entity_id": "994c96ec-ea0a-4741-8fef-53cdbfe28cfa"
+    }
+  ], 
+  "file_name": "e1877a07-b5ec-4ada-89cb-525e5abf966a.FPKM.txt.gz", 
+  "annotations": [
+    {
+      "entity_submitter_id": "TCGA-C8-A1HI", 
+      "notes": "During enrollment TSS discovered patient had 5FU, Epirubicin and cyclophosphamide prior to cancer procuemnt of the TCGA maliganncy.", 
+      "submitter_id": "23857", 
+      "entity_id": "444374f8-9282-439c-af00-0f828edcbff3", 
+      "classification": "Notification", 
+      "created_datetime": "2014-12-11T00:00:00", 
+      "annotation_id": "e8a42b2b-9d47-55fe-895f-407aa79768a1", 
+      "entity_type": "case", 
+      "updated_datetime": "2018-08-23T16:36:27.780612-05:00", 
+      "case_id": "444374f8-9282-439c-af00-0f828edcbff3", 
+      "state": "released", 
+      "category": "Neoadjuvant therapy", 
+      "status": "Approved"
+    }
+  ], 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "e1877a07-b5ec-4ada-89cb-525e5abf966a_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "2f325a69-df95-4e8c-a468-46dfa515e0cb_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "2f325a69-df95-4e8c-a468-46dfa515e0cb", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-27T15:59:03.834556-05:00", 
+        "file_size": 11083113995, 
+        "updated_datetime": "2018-11-15T20:20:28.822215-06:00", 
+        "md5sum": "699fb8e283a74500043ea08622bcce73", 
+        "file_id": "373f53d3-7c60-4be7-a157-516a0a516d80", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "e1877a07-b5ec-4ada-89cb-525e5abf966a_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "ae688577-551c-4da9-a578-d738ffff7ae3", 
+    "created_datetime": "2016-05-29T10:20:29.005946-05:00"
+  }, 
+  "file_size": 525840, 
+  "md5sum": "3d88e0b01add290ce0bc61a0f949703e", 
+  "file_id": "22d24f52-b3ad-4cda-b991-b29fa0a23159", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A12K-01A-21R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "6b923e30-2ddc-407f-91b1-c202f1373fbb", 
+      "entity_id": "0ef00203-8a0a-4d04-aa1e-c1164958d8ec"
+    }
+  ], 
+  "file_name": "b44cdb13-1812-4bf6-825e-edae5bc5376a.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "b44cdb13-1812-4bf6-825e-edae5bc5376a_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "467c2355-693b-47fc-a407-1cbfa125aa62_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "467c2355-693b-47fc-a407-1cbfa125aa62", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-29T12:52:22.315151-05:00", 
+        "file_size": 9199123038, 
+        "updated_datetime": "2018-11-15T22:13:19.171383-06:00", 
+        "md5sum": "3e38bd77343d2b128b28cdae986222bc", 
+        "file_id": "fe8b6a45-4035-477b-8aa3-32beec998f8e", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "b44cdb13-1812-4bf6-825e-edae5bc5376a_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "f2cdc8ac-e834-4cdc-bf69-6f857e9a0578", 
+    "created_datetime": "2016-05-30T18:16:22.010710-05:00"
+  }, 
+  "file_size": 520646, 
+  "md5sum": "f15e6f45889c14b2e22677c6e2a4008f", 
+  "file_id": "02d10ad1-1fa7-4f7d-94af-4a4b1424e9f8", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A27A-01A-11R-A169-07", 
+      "entity_type": "aliquot", 
+      "case_id": "3b1f7e48-216d-47de-ba79-db350f52bff0", 
+      "entity_id": "520a6569-bf3a-495f-9460-7f65e4f59687"
+    }
+  ], 
+  "file_name": "8ef08961-b69c-481b-ba38-205bff347775.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "8ef08961-b69c-481b-ba38-205bff347775_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "61d537db-23c5-4bfc-bdc9-8cee15740be8_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "61d537db-23c5-4bfc-bdc9-8cee15740be8", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-27T08:13:14.454293-05:00", 
+        "file_size": 13670683025, 
+        "updated_datetime": "2018-11-15T21:38:44.655215-06:00", 
+        "md5sum": "3cabb7f270bd57fb14f4acd16231d14f", 
+        "file_id": "b58e8e60-73ca-4d21-b62f-f72346d5a8b4", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "8ef08961-b69c-481b-ba38-205bff347775_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "2e7a9288-2111-4533-a57f-fe518f707ed7", 
+    "created_datetime": "2016-05-29T10:14:50.259182-05:00"
+  }, 
+  "file_size": 545598, 
+  "md5sum": "bab27f3cfa9a66a676c5fe04cab8421a", 
+  "file_id": "8954835c-5a92-41ed-9ccb-150982c528ee", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A26Y-01A-11R-A16F-07", 
+      "entity_type": "aliquot", 
+      "case_id": "4d51159f-ab2f-40e3-a363-847c3654431e", 
+      "entity_id": "afad9647-befe-4493-8386-475d0097c716"
+    }
+  ], 
+  "file_name": "6069387b-32a3-4e1c-8386-050aa2da67c4.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "6069387b-32a3-4e1c-8386-050aa2da67c4_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "64a624ae-5239-424e-8804-410a75cdae7f_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "64a624ae-5239-424e-8804-410a75cdae7f", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-28T00:09:01.430918-05:00", 
+        "file_size": 11751982799, 
+        "updated_datetime": "2018-11-15T20:08:12.509468-06:00", 
+        "md5sum": "a1d9c19186ba9a11baa2f83a2b9e5200", 
+        "file_id": "2282e4ee-ca02-4a7d-951c-6c234da169e9", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "6069387b-32a3-4e1c-8386-050aa2da67c4_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "2b3a0715-1b57-4f15-b437-eb188b4a1294", 
+    "created_datetime": "2016-05-29T10:25:49.428189-05:00"
+  }, 
+  "file_size": 544939, 
+  "md5sum": "d9e92a803aa6196c3daad52da739c987", 
+  "file_id": "21f004dc-f3ab-4b5f-a97f-2b4f4a75fda4", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-A2-A0CR-01A-11R-A22K-07", 
+      "entity_type": "aliquot", 
+      "case_id": "4cf0f639-7940-48b6-8ea1-2a3494097cdb", 
+      "entity_id": "00e597fa-72b4-4e92-9428-7ec686e4cc0b"
+    }
+  ], 
+  "file_name": "1e215a66-f961-4870-a370-4b945e1f7053.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "1e215a66-f961-4870-a370-4b945e1f7053_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "53ae1a81-e406-4015-8887-3f9cb2b7e950_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "53ae1a81-e406-4015-8887-3f9cb2b7e950", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-27T23:32:42.036472-05:00", 
+        "file_size": 9093483453, 
+        "updated_datetime": "2018-11-15T22:04:38.004773-06:00", 
+        "md5sum": "714dbb5566fc660a45e33b9fb7accae8", 
+        "file_id": "f78ab8bf-82ce-4a1d-a946-d310c0213545", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "1e215a66-f961-4870-a370-4b945e1f7053_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "8dba90c8-ac31-4836-b684-f4756d78ffdf", 
+    "created_datetime": "2016-05-29T10:25:27.905327-05:00"
+  }, 
+  "file_size": 517499, 
+  "md5sum": "18dec9820f1476d2f483a9e56d78471e", 
+  "file_id": "fcbea61d-c835-4752-b623-f357e5c2f466", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A274-01A-11R-A16F-07", 
+      "entity_type": "aliquot", 
+      "case_id": "dbcad60f-86c7-41e3-b0ae-baa39c9f83dd", 
+      "entity_id": "f9521be2-aaaf-414c-a906-3ba53a060614"
+    }
+  ], 
+  "file_name": "7d229eb4-cdbd-4578-9e54-c7cbd7ef1378.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "7d229eb4-cdbd-4578-9e54-c7cbd7ef1378_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "19740426-095e-4da1-8a4a-678af456fc96_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "19740426-095e-4da1-8a4a-678af456fc96", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-28T19:39:04.022804-05:00", 
+        "file_size": 11933444758, 
+        "updated_datetime": "2018-11-15T20:08:12.509468-06:00", 
+        "md5sum": "f8f542ded1a4f750a98531514ff7fdd0", 
+        "file_id": "196cd9b1-0b59-41fe-9832-40aa699f4780", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "7d229eb4-cdbd-4578-9e54-c7cbd7ef1378_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "fe2d860f-d3fd-4307-bd35-b7974edc878e", 
+    "created_datetime": "2016-05-29T11:07:38.149491-05:00"
+  }, 
+  "file_size": 525213, 
+  "md5sum": "231292347166b2b3bfab87cef9b67844", 
+  "file_id": "362b6b82-8fa3-44d8-9881-7010559425b5", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A131-01A-11R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "c49e3b18-fd88-48f4-8b01-300692ceb367", 
+      "entity_id": "5162ef6d-6978-4ff7-b385-a59325cefe17"
+    }
+  ], 
+  "file_name": "d4d6abaa-9134-42ac-9adf-2045f747abb4.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "d4d6abaa-9134-42ac-9adf-2045f747abb4_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "82bc8a48-2955-4dae-9635-0903b0985809_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "82bc8a48-2955-4dae-9635-0903b0985809", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-29T18:57:25.120832-05:00", 
+        "file_size": 7226375417, 
+        "updated_datetime": "2018-11-15T21:56:00.379896-06:00", 
+        "md5sum": "2fa245adb1e80975cd62fee53b1e21fc", 
+        "file_id": "d2a592de-7f6e-4ec0-9edb-5c74da7837be", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "d4d6abaa-9134-42ac-9adf-2045f747abb4_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "264918ff-01c7-4886-bd4a-1f69e12e11ac", 
+    "created_datetime": "2016-05-30T18:45:04.256623-05:00"
+  }, 
+  "file_size": 507883, 
+  "md5sum": "44643faeb2036ba39b278494e0154b7e", 
+  "file_id": "eecc962a-d893-4d27-a9f9-b61528e0ac78", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A130-01A-31R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "8cf54607-01ce-42b0-9bd9-8627edd9f3b7", 
+      "entity_id": "697dfcbf-0c6b-4cae-b851-d46dd6be42c9"
+    }
+  ], 
+  "file_name": "bf78430f-6c70-4e76-ade6-a434e0770d5f.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "bf78430f-6c70-4e76-ade6-a434e0770d5f_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "f1c337b2-b6fe-4491-a678-26b5af02dbaf_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "f1c337b2-b6fe-4491-a678-26b5af02dbaf", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-29T01:59:43.114240-05:00", 
+        "file_size": 8411762404, 
+        "updated_datetime": "2018-11-15T21:38:44.655215-06:00", 
+        "md5sum": "5a21ebb08b5325064c1cace6046542c3", 
+        "file_id": "b27b0d3a-5ddc-43f4-b99b-e70f40fbb708", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "bf78430f-6c70-4e76-ade6-a434e0770d5f_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "a701e233-b9b8-4e71-98db-802439878219", 
+    "created_datetime": "2016-05-29T10:49:53.818107-05:00"
+  }, 
+  "file_size": 526656, 
+  "md5sum": "b1b7d708df47bd9a819ca4cbc3ebf5d2", 
+  "file_id": "4725754f-205f-49af-9a77-1ee49e5779cd", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A1HK-01A-21R-A13Q-07", 
+      "entity_type": "aliquot", 
+      "case_id": "52c35691-efca-42f5-a03e-02c9f872275c", 
+      "entity_id": "83d9c730-9a1e-42b6-a1dd-6a57d0e24f2c"
+    }
+  ], 
+  "file_name": "c6bcced6-eb76-43f3-963a-967f1cbfec38.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "c6bcced6-eb76-43f3-963a-967f1cbfec38_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "1a6761d0-370d-447b-a126-031fe8cdc152_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "1a6761d0-370d-447b-a126-031fe8cdc152", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-28T06:12:29.884575-05:00", 
+        "file_size": 6497155529, 
+        "updated_datetime": "2018-11-15T20:46:44.319330-06:00", 
+        "md5sum": "8806ae525197d67c304669c8b17f580f", 
+        "file_id": "4ed5d291-b9b1-4f12-9385-8e32fd448cc6", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "c6bcced6-eb76-43f3-963a-967f1cbfec38_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "502516a3-c1b1-404e-844c-5ba21666681a", 
+    "created_datetime": "2016-05-29T10:28:43.106173-05:00"
+  }, 
+  "file_size": 507057, 
+  "md5sum": "c1b2e5db36744eb4962331bee70944d9", 
+  "file_id": "099a689e-e9f3-4d03-b22e-3e00da9c706c", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-BH-A0HW-01A-11R-A034-07", 
+      "entity_type": "aliquot", 
+      "case_id": "29fdc464-f216-4828-b456-829f71436e27", 
+      "entity_id": "0172d30c-287c-4f3e-b70c-5760c6dccb7c"
+    }
+  ], 
+  "file_name": "7d83af5d-9bcf-4c82-a993-fa9053a9b3cb.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "7d83af5d-9bcf-4c82-a993-fa9053a9b3cb_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "d5a7249d-ce03-4b2b-bc1b-b0e108dd79d5_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "d5a7249d-ce03-4b2b-bc1b-b0e108dd79d5", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-26T19:46:35.402531-05:00", 
+        "file_size": 9523119943, 
+        "updated_datetime": "2018-11-15T21:38:44.655215-06:00", 
+        "md5sum": "5dd7711a3adfa6439dd733de494fae95", 
+        "file_id": "b807931e-8d61-489b-878d-b10c47d5165e", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "7d83af5d-9bcf-4c82-a993-fa9053a9b3cb_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "8465920e-45ba-42a9-8292-a888b4f1c26d", 
+    "created_datetime": "2016-05-26T21:25:44.397918-05:00"
+  }, 
+  "file_size": 520783, 
+  "md5sum": "20cd8fc25215548cbbf5039b35b9527e", 
+  "file_id": "428228e0-2ec6-465d-ab34-a70b2fdbb65f", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-A2-A0CV-01A-31R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "ad7fcc89-82a3-48aa-8461-581c1a857677", 
+      "entity_id": "a8154f60-e391-44b5-b378-c944c5e8621d"
+    }
+  ], 
+  "file_name": "69e11cde-c26b-40d2-a3f5-b668ef590688.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "69e11cde-c26b-40d2-a3f5-b668ef590688_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "9c5a9a3f-0368-4eea-a4ca-a346cb676a68_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "9c5a9a3f-0368-4eea-a4ca-a346cb676a68", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-28T16:58:06.420167-05:00", 
+        "file_size": 9805155325, 
+        "updated_datetime": "2018-11-15T20:57:47.372612-06:00", 
+        "md5sum": "1fd41daef7cebab1b905b9a1c4bf1bae", 
+        "file_id": "6b5d4d21-06c7-46f8-a9d1-79c0ac73f118", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "69e11cde-c26b-40d2-a3f5-b668ef590688_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "98aa43de-3d4d-42f8-b5b9-54b2a10c4186", 
+    "created_datetime": "2016-05-29T10:55:37.487628-05:00"
+  }, 
+  "file_size": 518205, 
+  "md5sum": "fb59bf5749606205ec0fc13326ab3235", 
+  "file_id": "d2bb3705-7e39-4bf8-bea3-304de9a947e9", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A1HL-01A-11R-A137-07", 
+      "entity_type": "aliquot", 
+      "case_id": "a8a199c9-d781-4e6c-af8c-c85d60c7cd40", 
+      "entity_id": "9d80ba46-b65f-4338-99bc-370f8eaefe4e"
+    }
+  ], 
+  "file_name": "a3884915-b232-4c1f-b87a-d0a196ae7aeb.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "a3884915-b232-4c1f-b87a-d0a196ae7aeb_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "20b3f30f-926b-419b-af16-631308b3bbd1_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "20b3f30f-926b-419b-af16-631308b3bbd1", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-30T08:12:28.847726-05:00", 
+        "file_size": 5923486093, 
+        "updated_datetime": "2018-11-15T21:12:37.513272-06:00", 
+        "md5sum": "d70ae03b6bb4dc67cc24e3bedf411c5a", 
+        "file_id": "7e53e2e3-391b-4074-830f-56bdd5fd1d6a", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "a3884915-b232-4c1f-b87a-d0a196ae7aeb_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "586fc361-2f34-4159-b7be-85934a0a65ad", 
+    "created_datetime": "2016-05-30T18:38:40.387277-05:00"
+  }, 
+  "file_size": 499635, 
+  "md5sum": "743183938a5fc276ac7326d5a71c58f8", 
+  "file_id": "399e880f-281b-48d4-820e-b75992c8457c", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A273-01A-11R-A16F-07", 
+      "entity_type": "aliquot", 
+      "case_id": "5a5f0f48-2b13-4e78-b130-901b85d9a7f3", 
+      "entity_id": "c2e4eb91-bc79-4c8a-beef-4c5abc61d2fa"
+    }
+  ], 
+  "file_name": "60396a51-81af-4e2a-8599-500eb58620c7.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "60396a51-81af-4e2a-8599-500eb58620c7_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "5a796340-53e2-4d21-bfc3-f8eb4400a956_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "5a796340-53e2-4d21-bfc3-f8eb4400a956", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-28T15:49:43.042795-05:00", 
+        "file_size": 11458026437, 
+        "updated_datetime": "2018-11-15T21:38:44.655215-06:00", 
+        "md5sum": "943da4d1b172c5a420a32d387aa786e0", 
+        "file_id": "aff01b37-925f-45f8-be46-05368f64d6c2", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "60396a51-81af-4e2a-8599-500eb58620c7_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "ce0bf242-6ea6-4c64-bd8a-3225b8f76044", 
+    "created_datetime": "2016-05-29T10:33:31.997601-05:00"
+  }, 
+  "file_size": 517981, 
+  "md5sum": "febf5308cc75a87b4998deab5c96f17d", 
+  "file_id": "61ad0d1d-68f7-484f-a82f-7d2ce6423e85", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A26Z-01A-11R-A16F-07", 
+      "entity_type": "aliquot", 
+      "case_id": "dc11b1c7-1f00-4813-b4b5-ecf776b2eb37", 
+      "entity_id": "8213eb8c-db23-4f92-b3d3-07b45eeec76a"
+    }
+  ], 
+  "file_name": "72be5cae-79cb-40da-b6ba-00d2192d6ec8.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "72be5cae-79cb-40da-b6ba-00d2192d6ec8_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "fbe0aa07-0fdf-42e3-b609-15190e2aa358_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "fbe0aa07-0fdf-42e3-b609-15190e2aa358", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-28T19:55:22.551732-05:00", 
+        "file_size": 11293712420, 
+        "updated_datetime": "2018-11-15T21:56:00.379896-06:00", 
+        "md5sum": "3fdb984a35ef9cff76918f762be08254", 
+        "file_id": "e4bd0a9d-4d69-4984-aca8-cb12933fb17d", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "72be5cae-79cb-40da-b6ba-00d2192d6ec8_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "6a43e4c7-02d8-477a-b1b1-791bb8e61c49", 
+    "created_datetime": "2016-05-29T11:07:52.150268-05:00"
+  }, 
+  "file_size": 527206, 
+  "md5sum": "f70d150beddb9790e499ed636710808b", 
+  "file_id": "434cc034-b8b6-4c6d-ba81-5fc26fe07257", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A12Q-01A-11R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "a824b3bd-34d5-4cc1-a92f-f9d6ac0f1814", 
+      "entity_id": "e042ea6d-3204-41a7-9811-25f4ac0c3558"
+    }
+  ], 
+  "file_name": "fa3d5856-e25b-4d4e-94ac-f524dc8a4cf5.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "fa3d5856-e25b-4d4e-94ac-f524dc8a4cf5_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "fb6c3d65-0b90-4b3d-88d8-38c7a8cd43f2_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "fb6c3d65-0b90-4b3d-88d8-38c7a8cd43f2", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-30T07:37:49.024432-05:00", 
+        "file_size": 8694814785, 
+        "updated_datetime": "2018-11-15T20:57:47.372612-06:00", 
+        "md5sum": "73d1a1a86ba04d1f04602040bad3c92d", 
+        "file_id": "6403df73-e4f6-4221-911c-3d4d776a9bec", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "fa3d5856-e25b-4d4e-94ac-f524dc8a4cf5_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "6d430711-ad50-4d27-a18d-7a2c01eb46f5", 
+    "created_datetime": "2016-05-30T18:38:25.664049-05:00"
+  }, 
+  "file_size": 525761, 
+  "md5sum": "cdcecd283183570237e8b5c62b63d71d", 
+  "file_id": "4d2548ea-6485-46e5-8729-741bb986afec", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A12O-01A-11R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "83f26720-007c-42c9-a7de-7484bf8afa89", 
+      "entity_id": "5efabaa8-f296-4c9c-9632-559ef7f6dd44"
+    }
+  ], 
+  "file_name": "23f8f5e2-25b8-4b43-b939-66e7e3f55977.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "23f8f5e2-25b8-4b43-b939-66e7e3f55977_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "368eb174-17e6-4675-9496-28b53bcd9323_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "368eb174-17e6-4675-9496-28b53bcd9323", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-30T13:35:00.213611-05:00", 
+        "file_size": 8032668733, 
+        "updated_datetime": "2018-11-15T19:59:41.719344-06:00", 
+        "md5sum": "46745033e28a2d0c2f362f30674cd568", 
+        "file_id": "0c6ca788-39fc-448d-92a5-b591c94d0f0c", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "23f8f5e2-25b8-4b43-b939-66e7e3f55977_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "67b69c25-36d9-4506-b4d8-b42c59780517", 
+    "created_datetime": "2016-05-30T18:28:26.473909-05:00"
+  }, 
+  "file_size": 519250, 
+  "md5sum": "40c10ce8ad282c9247da351a25226633", 
+  "file_id": "673e595c-76a7-4b73-b864-13cca111f74a", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-E2-A106-01A-11R-A10J-07", 
+      "entity_type": "aliquot", 
+      "case_id": "87e09544-eddb-473b-8617-212407ce644e", 
+      "entity_id": "cbd64838-97a7-47a9-a4dc-aa9e0d0ab3d2"
+    }
+  ], 
+  "file_name": "45c8b091-bc89-4b52-87d9-2d9f97280abe.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "45c8b091-bc89-4b52-87d9-2d9f97280abe_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "eae80f59-bc0f-4bd4-8d60-fd9cece9402e_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "eae80f59-bc0f-4bd4-8d60-fd9cece9402e", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-28T18:52:40.401182-05:00", 
+        "file_size": 6711112357, 
+        "updated_datetime": "2018-11-15T21:21:29.863147-06:00", 
+        "md5sum": "8bb0572863fa22d738b015d8c94cdb2b", 
+        "file_id": "9535e2df-69f5-430e-9a10-0ecce4bda0d2", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "45c8b091-bc89-4b52-87d9-2d9f97280abe_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "636d5848-a7bf-4d76-b410-435f48cf7c2b", 
+    "created_datetime": "2016-05-29T10:46:54.472550-05:00"
+  }, 
+  "file_size": 506682, 
+  "md5sum": "32074a18dd9c9f42c5cb7918605fa698", 
+  "file_id": "21896cbf-a16e-4dae-a7e6-f713ee2075fa", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A26V-01A-11R-A16F-07", 
+      "entity_type": "aliquot", 
+      "case_id": "89414e79-7f89-42d9-8228-101b5bf2f31f", 
+      "entity_id": "67a58c72-fa64-4c63-b568-bec834626edf"
+    }
+  ], 
+  "file_name": "6f618400-b914-4103-bf46-9c026b470aa0.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "6f618400-b914-4103-bf46-9c026b470aa0_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "cd57d138-d70b-4b7e-ac84-66fb576c48df_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "cd57d138-d70b-4b7e-ac84-66fb576c48df", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-28T21:52:06.485128-05:00", 
+        "file_size": 14170150822, 
+        "updated_datetime": "2018-11-15T20:46:44.319330-06:00", 
+        "md5sum": "d02618f1dea516a3b899268f1147ad22", 
+        "file_id": "4f44d478-ea54-4965-94ba-96f2e5967ff7", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "6f618400-b914-4103-bf46-9c026b470aa0_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "8366ddb7-473d-4d2c-8ca9-3752accfabdf", 
+    "created_datetime": "2016-05-29T10:47:43.697618-05:00"
+  }, 
+  "file_size": 527779, 
+  "md5sum": "069df600ec4f53fca20a878c7eea021b", 
+  "file_id": "dd96243a-0f25-4ede-b169-e25c1e197328", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A12V-01A-11R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "7e1673f8-5758-4963-8804-d5e39f06205b", 
+      "entity_id": "b12c9095-55c7-4add-9e22-3d65eeef2040"
+    }
+  ], 
+  "file_name": "54401c2a-7124-42b7-90d8-6267575bce51.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "54401c2a-7124-42b7-90d8-6267575bce51_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "4de28c00-15c5-4148-90a2-e440f6f08226_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "4de28c00-15c5-4148-90a2-e440f6f08226", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-30T08:04:09.817585-05:00", 
+        "file_size": 8021984671, 
+        "updated_datetime": "2018-11-15T21:47:23.001784-06:00", 
+        "md5sum": "bdcd39708df5e1f911b51f498f455675", 
+        "file_id": "bfed8865-3bac-45be-9664-216339e8202e", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "54401c2a-7124-42b7-90d8-6267575bce51_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "4d0b3c16-1a44-4291-a773-49242fd850cb", 
+    "created_datetime": "2016-05-30T18:25:44.199974-05:00"
+  }, 
+  "file_size": 517865, 
+  "md5sum": "9e0245bf0fccf3b2be78b03fc7f300e9", 
+  "file_id": "f3600513-f8d2-4c5f-8eca-feee7e8584c9", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A12L-01A-11R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "441919eb-8c9f-478c-bda3-8de4f8295e8a", 
+      "entity_id": "0a5a7511-4e7b-4fe4-b323-c354acffab57"
+    }
+  ], 
+  "file_name": "3bb2c361-dc3f-431f-87d1-e2fd1ff4939a.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "3bb2c361-dc3f-431f-87d1-e2fd1ff4939a_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "d6debcaa-46ab-450d-b7c1-71cb2a20ee9f_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "d6debcaa-46ab-450d-b7c1-71cb2a20ee9f", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-27T15:52:34.553167-05:00", 
+        "file_size": 6886679658, 
+        "updated_datetime": "2018-11-15T21:56:00.379896-06:00", 
+        "md5sum": "f25d41b7fa9b1643ef762b4c967c05cd", 
+        "file_id": "e0be7ad2-d296-4c87-b337-361f5c29f11d", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "3bb2c361-dc3f-431f-87d1-e2fd1ff4939a_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "370d7a6e-5d93-4ee8-92f2-2766a27d8eb2", 
+    "created_datetime": "2016-05-29T10:20:24.752219-05:00"
+  }, 
+  "file_size": 516326, 
+  "md5sum": "46b0e142666e6256a98a52465720acbd", 
+  "file_id": "e08091c6-044e-4242-9134-94a9f5eb7b2d", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-C8-A134-01A-11R-A115-07", 
+      "entity_type": "aliquot", 
+      "case_id": "f1692f4b-ce1b-4fc5-ac55-1022ecae0d1e", 
+      "entity_id": "d96863aa-33a8-43bf-a9b5-589de1e9cf44"
+    }
+  ], 
+  "file_name": "68b3162f-a77a-4630-a64a-26a33a2ecb12.FPKM.txt.gz", 
+  "data_category": "Transcriptome Profiling", 
+  "submitter_id": "68b3162f-a77a-4630-a64a-26a33a2ecb12_fpkm", 
+  "analysis": {
+    "workflow_version": "v1", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "access": "controlled", 
+        "file_name": "969a8506-1561-4767-bf8a-87437281bbc7_gdc_realn_rehead.bam", 
+        "data_category": "Sequencing Reads", 
+        "submitter_id": "969a8506-1561-4767-bf8a-87437281bbc7", 
+        "platform": "Illumina", 
+        "created_datetime": "2016-05-29T21:39:34.507042-05:00", 
+        "file_size": 12786215254, 
+        "updated_datetime": "2018-11-15T20:57:47.372612-06:00", 
+        "md5sum": "b8b430e47416e26c907c138210f0be50", 
+        "file_id": "6020c955-a3fa-4386-8f7e-8829824140e1", 
+        "data_type": "Aligned Reads", 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+    "workflow_link": "https://github.com/NCI-GDC/htseq-cwl", 
+    "submitter_id": "68b3162f-a77a-4630-a64a-26a33a2ecb12_fpkm", 
+    "workflow_type": "HTSeq - FPKM", 
+    "state": "released", 
+    "analysis_id": "73349298-1332-4e4b-b749-6c401674062a", 
+    "created_datetime": "2016-05-30T19:00:14.402578-05:00"
+  }, 
+  "file_size": 535113, 
+  "md5sum": "aedd093070f40d18bffea1c91f4010f3", 
+  "file_id": "4e179afb-b40a-416a-9ea7-bffc2a9660ea", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+}]
